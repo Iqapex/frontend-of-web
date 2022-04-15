@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body{
+   scroll-behavior: smooth;
+   min-height: 100vh;
+   overflow-x: hidden;
+    background: linear-gradient(to right, rgb(8, 78, 104), rgb(14, 117, 78));
+}
+.front{
+ min-height: 100vh; 
+ z-index: 1000;
+
+}
+.main-logo{
+    width: 92%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 8%;
+
+}
+
+.main-logo img{
+    backdrop-filter: blur(10px);
+}
+.iqapex-heading{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(201, 56, 3);
+}
+.iqapex-heading h1{
+    position:static;
+    transform-origin: center;
+    /* letter-spacing: 5px; */
+    font-size: 7rem;
+    color: transparent;
+        /* font-family: inherit; */
+    /* font-family: "apercu",sans-serif; */
+    font-family: "Poppins",sans-serif;
+    line-height: 1em;
+    color: rgb(26, 138, 172);
+    font-weight: bolder;
+    filter: drop-shadow(-3px -3px 2px rgb(139, 215, 238))
+    drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+    drop-shadow( 15px  15px 15px rgba(0,0,0,0.2));
+   
+}/* #01fe87 */
+/* .iqapex-heading h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 10%;
+    color: yellow;
+    color: yellow;
+    -webkit-text-stroke: 0vw transparent;
+    border-right: 4px solid yellow;
+    overflow: hidden;
+    animation: headings 3s linear infinite;
+} *//* 
+@keyframes headings{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+} */
+
+.text-animator{
+    position: relative;
+    display: inline-block;
+}
+/* .text-animator::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: white;
+    animation: blinkCursor 0.8s steps(3) infinite;
+    
+
+} */
+span{
+   animation: blinkCursor 1s linear infinite; 
+}
+@keyframes blinkCursor{
+   50%{
+       opacity: 0;
+   }
+}
+
+.text-animator p{
+    
+    font-family: consolas;
+    font-size: 2.2vw;
+    /* letter-spacing: 5px; */
+    /* animation: typing 2s steps(48) infinite; */
+    height: 56px;
+    overflow: hidden;
+   
+    
+
+}
+/* @keyframes typing{
+    0%,90%,100%{
+        width:0;
+    }
+    30%,60%{
+        width:100% ;
+    }
+} */
+@media (max-width:1300px){
+.iqapex-heading h1{
+    font-size: 9.4vw;
+     
+
+}
+.text-animator p{
+    height: 40px;
+}
+}
+@media (max-width:1040px){
+    .iqapex-heading h1{
+        font-size: 9.4vw;
+        
+    
+    }
+    .text-animator p{
+        height: 32px;
+    }
+}
+@media (max-width:770px){
+    .main-logo{
+        margin-top: 30%;
+    }
+    .iqapex-heading h1{
+        font-size: 10vw;
+        
+    
+    }
+    .text-animator p{
+        height: 26px;
+    }
+}
+@media (max-width:646px){
+    .iqapex-heading h1{
+        font-size: 10.2vw;
+        
+    
+    }
+    .text-animator p{
+        height: 22px;
+    }
+}
+@media (max-width:533px){
+    .main-logo{
+        margin-top: 40%;
+    }
+    .iqapex-heading h1{
+        
+        
+    
+    }
+    .text-animator p{
+        height: 18px;
+    }
+}
+
+@media (max-width:442px){
+    .main-logo{
+        margin-top: 50%;
+    }
+    .iqapex-heading h1{
+        
+        
+    
+    }
+    .text-animator p{
+        height: 14px;
+    }
+}
+@media (max-width:342px){
+    .main-logo{
+        margin-top: 60%;
+    }
+    .iqapex-heading h1{
+        
+        
+    
+    }
+    .text-animator p{
+        height: 10px;
+    }
+}

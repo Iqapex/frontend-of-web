@@ -1,0 +1,9 @@
+.talent{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+.talent h1{
+    font-size: 6vw;
+}

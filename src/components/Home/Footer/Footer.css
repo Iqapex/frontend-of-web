@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.footer-div{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0));
+    min-height: 40vh;
+    width: 100%;
+    align-items: center;
+    z-index: 5;
+}
+.footer{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    min-height: 100%;
+    min-width: 100%;
+}
+.footer-contents{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-contents h4{
+    color: #bf1e2d;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+
+.expertise ,.ContactUs,.AboutUs p{
+    font-size: 20px;
+}
+
+.expertise p:hover,.ContactUs p:hover,.AboutUs p:hover{
+    color: #e72222;
+}
+.image-social{
+    margin: 5%;
+}
+.image-social img{
+    margin-left: 3%;
+   
+}
+
+
+@media(max-width:740px){
+    .footer-contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 2%;
+    }
+}

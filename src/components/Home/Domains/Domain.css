@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 110vh;
+    min-width: 100%;
+    background: linear-gradient(to right, rgb(8, 13, 42), rgb(9, 70, 113));
+    flex-wrap: wrap;
+}
+
+.domain-comp{
+    position: relative;
+   
+}
+
+.domain-icons{
+    position: relative;
+   background: greenyellow;
+    width: 17vw;
+    height: 25vh;
+    color: rgb(197, 36, 7);
+}
+
+.clip-lines{
+    position: relative;
+    background: blue;
+    width: 15vw;
+    height: 20vh;
+    clip-path: polygon(0 9%, 13% 0, 29% 2%, 44% 10%, 61% 13%, 100% 51%, 100% 60%, 61% 20%, 44% 17%, 28% 9%, 13% 8%, 0 16%);
+}
+.clip-lines-right{
+    position: relative;
+    background: blue;
+    width: 15vw;
+    height: 20vh;
+}
+
+.main-comp{
+    position: relative;
+    background: red;
+    width: 15vw;
+    height:30vh ;
+}
+/* h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Poppins",sans-serif;
+    -webkit-text-stroke: 0.2rem yellow; 
+    color: transparent;
+    
+}
+.flex-div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+ .container .hexagon {
+            
+            position: absolute;
+            transform: rotate(30deg);
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            width: 100px; 
+            height: 63px;
+            box-sizing: border-box;
+            transition: all 1s;
+            border: 0.4vh solid transparent;
+            position: relative;
+            width: 280px;
+            height: 320px;
+            margin:50px 50px 70px;
+
+
+        }
+.container .hexagon .shape{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(rgba(0,0,0,0.3),transparent);
+    
+    
+    clip-path: polygon( 0 25%, 50% 0, 100% 25%, 100% 75%,50% 100%,0 75%);
+    transition: 0.5s;
+}
+   
+.container .hexagon:hover .shape{
+    transform: translateY(-30px);
+    transform: scale(1.2);
+
+}
+
+       
+.container .hexagon::before{
+    content: '';
+    position: absolute;
+
+    bottom: -70px;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(rgba(0,0,0,0.2),transparent);
+    box-shadow: inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.container .hexagon:hover::before{
+    opacity: 0.8;
+    
+    box-shadow: inset 0 0 60px whitesmoke,
+inset 20px 0 80px #f0f,
+inset -20px 0 80px #0ff,
+inset 20px 0 300px #f0f,
+inset -20px 0 300px #0ff,
+0 0 50px #fff,
+-10px 0 80px #f0f,
+10px 0 80px #0ff;
+
+}
+.container .hexagon .shape img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    object-fit: contain;
+
+}
+.container .hexagon .shape img:hover{
+    clip-path: polygon( 0 25%, 50% 0, 100% 25%, 100% 75%,50% 100%,0 75%);
+    
+}
+.container .hexagon .shape .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    
+    font-weight: bolder;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(45deg,#fd82f3,rgba(3,169,244,0));
+    background: linear-gradient(rgba(0,0,0,0.7),transparent);
+    box-shadow: inset 0 0 60px whitesmoke,
+inset 20px 0 80px #f0f,
+inset -20px 0 80px #0ff,
+inset 20px 0 300px #f0f,
+inset -20px 0 300px #0ff,
+0 0 50px #fff,
+-10px 0 80px #f0f,
+10px 0 80px #0ff;
+    opacity: 0;
+    
+
+ 
+}
+.container .hexagon:hover .shape .content{
+opacity: 1;
+transform: scale(0.93);
+
+clip-path: polygon( 0 25%, 50% 0, 100% 25%, 100% 75%,50% 100%,0 75%);
+
+}
+@media (max-width:1086px){
+    .flex-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media(max-width:372px){
+    .container{
+    overflow: hidden;
+    }
+}
+ */
