@@ -12,7 +12,7 @@ function Story() {
 
   return (
     <div className='story-and-impacts'>
-  <marquee>This Website is under maintenance</marquee>
+  {/* <marquee>This Website is under maintenance</marquee> */}
     <div className='story-container'>
     <div data-aos="fade-right">
 
