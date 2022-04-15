@@ -7,7 +7,7 @@ import Img3 from "../../images/Vue.svg"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from "react-bootstrap";
-
+/* 
 
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -16,7 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import LinkedIn from "../../images/linkedin.svg";
 import YouTube from "../../images/youtube.svg";
 import Instagram from "../../images/instagram.svg";
-import Facebook from "../../images/facebook.svg";
+import Facebook from "../../images/facebook.svg"; */
 import Aos from "aos";
 import "aos/dist/aos.css";
 

@@ -1,5 +1,5 @@
 import React, { useEffect,useState } from 'react';
-import { useNavigate } from 'react-router';
+
 import "./product.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +8,7 @@ import axios from 'axios'
 
 function Product() {
 
-const navigate=useNavigate();
+
 
     const [data, setData] = useState({
        firstname:"",

@@ -1,10 +1,10 @@
 import React,{useState} from 'react';
-import { useNavigate } from 'react-router';
+/* import { useNavigate } from 'react-router';
 import axios from "axios";
-
+ */
 function Signup() {
      
-    const navigate=useNavigate();
+  /*   const navigate=useNavigate(); */
     const [data, setData] = useState({
 		username:""	,	
 		email: "",
@@ -15,13 +15,13 @@ function Signup() {
 	    
 	});
 
-    const [error, setError] = useState("");
+/*     const [error, setError] = useState(""); */
 
     const handleChange = ({ currentTarget: input }) => {
 		setData({ ...data, [input.name]: input.value });
 	};
 
-    const handleSubmit = async (e) => {
+   /*  const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
 			
@@ -41,7 +41,7 @@ function Signup() {
 				setError(error.response.data.message);
 			}
 		}
-	};
+	}; */
 
   return (
     <div>

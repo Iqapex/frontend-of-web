@@ -2,7 +2,7 @@ import React from 'react'
 import "./Front.css"
 import ParticleAnimation from '../../Particles'
 import Logo from "../../images/iqapex.png"
-import Tilt from "react-vanilla-tilt"
+/* import Tilt from "react-vanilla-tilt" */
 import Typewriter from 'typewriter-effect';
 
 

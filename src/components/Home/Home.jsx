@@ -1,7 +1,7 @@
 import React from 'react'
 import Front from './Front/Front';
 import Product from './Products/Product';
-import Domain from './Domains/Domain';
+/* import Domain from './Domains/Domain'; */
 import Story from './Story/Story';
 import Companies from './Companies/Companies';
 import Footer from './Footer/Footer';
