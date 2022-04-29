@@ -10,7 +10,7 @@ import AboutUs from './components/Home/Footer/About us/AboutUs';
 import Enterprise from './components/Home/Footer/Enterprise Soloution/Enterprise';
 import Login from './pages/Login';
 /* import Signup from './pages/Signup'; */
-
+import Footer from './components/Home/Footer/Footer';
 
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
@@ -30,7 +30,9 @@ function App() {
       <Route exact path='/AboutUs' element={<AboutUs/>}/>
       <Route exact path='/login' element={<Login/>}/>
       <Route exact path='/signup' element={<Login/>}/>
+      
     </Routes>
+    <Footer/>
     </Router>
    {/*  <Home/> */}
     </div>

@@ -41,6 +41,11 @@ function Footer() {
           About us
         </p>
         </Link>
+        <Link to="/partners" style={{textDecoration:"inherit"}}>
+       <p>
+          partner with us
+        </p>
+       </Link>
     
       </div>
       <div className='AboutUs'>
@@ -60,7 +65,7 @@ function Footer() {
      
       </div>
 
-      <div className='AboutUs'>
+      <div className='AboutUs2'>
         <h4>
           Get in touch
         </h4>
@@ -74,7 +79,17 @@ function Footer() {
           Careers
         </p>
        </Link>
+       <Link to="/meeting" style={{textDecoration:"inherit"}}>
+       <p>
+          Schedule a meeting
+        </p>
+       </Link>
       
+       <Link to="/join-business" style={{textDecoration:"inherit"}}>
+       <p>
+          Join Business Collaboration
+        </p>
+       </Link>
       </div>
       <div className='Social-media-footer'>
         <h4>

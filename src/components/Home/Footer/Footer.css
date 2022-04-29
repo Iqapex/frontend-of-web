@@ -31,11 +31,11 @@
     
 }
 
-.expertise ,.ContactUs,.AboutUs p{
+.expertise ,.ContactUs,.AboutUs ,.AboutUs2 p{
     font-size: 20px;
 }
 
-.expertise p:hover,.ContactUs p:hover,.AboutUs p:hover{
+.expertise p:hover,.ContactUs p:hover,.AboutUs p:hover,.AboutUs2 p:hover{
     color: #e72222;
 }
 .image-social{
@@ -53,5 +53,10 @@
         flex-direction: column;
         align-items: center;
         bottom: 2%;
+    }
+    .ContactUs,.AboutUs{
+        text-align: left;
+        justify-content: left;
+        align-items: flex-start;
     }
 }
