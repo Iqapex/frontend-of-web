@@ -14,7 +14,6 @@ function Home() {
     
       <Front/>
       <Tree/>
-  
       <Product/>
       <Story/>
       <Companies/>

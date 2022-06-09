@@ -29,8 +29,9 @@ function Companies() {
 
   return (
     <div className="Companies-div">
-        <h1 data-aos="fade-left">
-            Companies which trust us
+    <div className='align-comp'>
+        <h1  data-aos="fade-left">
+            Companies Which Trust Us
         </h1>
         <div className='comp-container'>
         <div class="companies">
@@ -50,39 +51,69 @@ function Companies() {
             <h1 data-aos="fade-right">
                 What people say about us?
             </h1>
-            <Carousel style={{"marginTop":"5%"}}>
+            <Carousel style={{"marginTop":"5%",height:"100%"}} >
   <Carousel.Item interval={2000}>
-    <img  style={{height:200,width:200}}
+    <img  style={{height:400,width:400}}
       className="d-block w-100"
       src={Img1}
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3> Meghana Hegde,IIM Kozhikode,India</h3>
+      <p>. I wish to convey my gratitude for providing this opportunity to intern with
+your organization. It was a pleasant experience and it helped me sharpen my research skills
+during this period. I also learned to use vital tools that are helpful for any type of research.
+</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
-    <img style={{height:200,width:200}}
+    <img style={{height:400,width:400}}
       className="d-block w-100"
       src={Img2}
       alt="Second slide"
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>3. Harsh Sinha - IIT G - Full Stack Developer</h3>
+      <p>I gained much knowledge from this intern and really enjoyed it. Mentors respond immediately and
+are very supportive.
+There should be a scheduled meeting time to time for code discussion and feedback about the code.
+It can really help to improve efficiency and the code quality.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
-    <img style={{height:200,width:200}}
+    <img style={{height:400,width:400}}
       className="d-block w-100"
       src={Img3}
       alt="Third slide"
     />
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
+    <Carousel.Caption >
+      <h3>Simran Malik - Research (Nanotechnology)</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img style={{height:400,width:400}}
+      className="d-block w-100"
+      src={Img3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption >
+      <h3>Simran Malik - Research (Nanotechnology)</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img style={{height:400,width:400}}
+      className="d-block w-100"
+      src={Img3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption >
+      <h3>Simran Malik - Research (Nanotechnology)</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -185,6 +216,7 @@ function Companies() {
         </div>
          
         </div> */}
+        </div>
     </div>
   )
 }

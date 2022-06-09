@@ -12,12 +12,12 @@
    /*  background: linear-gradient(to top, rgb(0, 0, 0), rgb(9, 70, 113));
  */
 }
-/* marquee{
+marquee{
     position: relative;
     margin-top: 5%;
     background: black;
     color: white;
-} */
+}
 .story-container{
     
     text-align: center;

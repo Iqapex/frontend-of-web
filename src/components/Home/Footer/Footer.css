@@ -31,8 +31,9 @@
     
 }
 
-.expertise ,.ContactUs,.AboutUs ,.AboutUs2 p{
+.expertise p,.ContactUs p,.AboutUs p,.AboutUs2 p{
     font-size: 20px;
+    color: white;
 }
 
 .expertise p:hover,.ContactUs p:hover,.AboutUs p:hover,.AboutUs2 p:hover{
@@ -45,7 +46,6 @@
     margin-left: 3%;
    
 }
-
 
 @media(max-width:740px){
     .footer-contents{

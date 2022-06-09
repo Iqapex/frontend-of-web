@@ -12,7 +12,7 @@ function Story() {
 
   return (
     <div className='story-and-impacts'>
-  {/* <marquee>This Website is under maintenance</marquee> */}
+  <marquee>This Website is under maintenance</marquee>
     <div className='story-container'>
     <div data-aos="fade-right">
 
@@ -430,7 +430,7 @@ Broad Areas of Virtual Labs,Electronics & Communications,Computer Science & Engi
             </div>
             <div class="impacts" data-aos="zoom-in">
             <h4 data-aos="fade-up">
-                    4 Countries Community
+                    3 Countries Community
                 </h4>
             </div>
             <div class="impacts" data-aos="zoom-in">

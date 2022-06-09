@@ -4,7 +4,14 @@ import "./product.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import swal from 'sweetalert';
-import axios from 'axios'
+import axios from 'axios';
+import Img1 from "../../images/2.png";
+import Img2 from "../../images/fish.png";
+import Img3 from "../../images/gel.jpeg";
+import Img4 from "../../images/greenlife.jpg";
+import Img5 from "../../images/ktok.jpeg";
+import Img6 from "../../images/host.jpeg"
+
 
 function Product() {
 
@@ -25,16 +32,17 @@ function Product() {
 	    product:""
 	});
 
-   /*  const product=[{  first:"logistics IQPlant"},
-    {second:"iQHost"},
-   { third:"CocoFruit Grinder Machine"},
-   { fourth:"Electric Fish De-scaler machine"},
-    {fifth:"Vending Crushers"},
-    {sixth:"Ultrasound"},
-    {seventh:"IOT based SanatiZation Tunnel"},
-    {eighth:"IOT based Hand Sanatization System"},] */
+   
       
-    
+    const[readMoreClicked1,setReadMOreClicked1]=useState(false);
+    const[readMoreClicked2,setReadMOreClicked2]=useState(false);
+    const[readMoreClicked3,setReadMOreClicked3]=useState(false);
+    const[readMoreClicked4,setReadMOreClicked4]=useState(false);
+    const[readMoreClicked5,setReadMOreClicked5]=useState(false);
+    const[readMoreClicked6,setReadMOreClicked6]=useState(false);
+    const[readMoreClicked7,setReadMOreClicked7]=useState(false);
+    const[readMoreClicked8,setReadMOreClicked8]=useState(false);
+    const[readMoreClicked9,setReadMOreClicked9]=useState(false);
     const[prodName,setProdName]=useState("");
 
 const [error, setError] = useState("");
@@ -44,7 +52,33 @@ const [error, setError] = useState("");
     const handleChange = ({ currentTarget: input }) => {
 		setData({ ...data, [input.name]: input.value });
 	};
-
+    function handleReadMore1(){
+        setReadMOreClicked1(!readMoreClicked1)
+    }
+    function handleReadMore2(){
+        setReadMOreClicked2(!readMoreClicked2)
+    }
+    function handleReadMore3(){
+        setReadMOreClicked3(!readMoreClicked3)
+    }
+    function handleReadMore4(){
+        setReadMOreClicked4(!readMoreClicked4)
+    }
+    function handleReadMore5(){
+        setReadMOreClicked5(!readMoreClicked5)
+    }
+    function handleReadMore6(){
+        setReadMOreClicked6(!readMoreClicked6)
+    }
+    function handleReadMore7(){
+        setReadMOreClicked7(!readMoreClicked7)
+    }
+    function handleReadMore8(){
+        setReadMOreClicked8(!readMoreClicked8)
+    }
+    function handleReadMore9(){
+        setReadMOreClicked9(!readMoreClicked9)
+    }
     function handleSubmit(e){
         e.preventDefault();
 		try {
@@ -247,90 +281,179 @@ const [error, setError] = useState("");
           <div>
           
           <h1 data-aos="fade-left">
-                Hardware Products
+                Products
             </h1>
             <div className='flex-div'>
 
                 <div className='circle'>
+                {readMoreClicked1? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore1}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img5} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
                             <h2>
-                            Logistics IQPlant
+                            
+                                K TO K Consultants <h6>One Stop Law Firm for Businesses, Enterprises and Start-ups</h6> 
                             </h2>
-                            <p>
-                                Something abount Logistic IQPlant
-                            </p>
+                           <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"logistics IQPlant")} className="order-button">
-                                Order now
+                                Book now
                             </button>
+                            <button  onClick={handleReadMore1} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
 
                         </div>
 
-                    </div>
+                    </div>}
+
+                </div>
+                <div className='circle'>
+                {readMoreClicked2? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore2}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
+                    <div className='Circle-contents'>
+                        <div className='circular-image'>
+                            <img src={Img4} alt="App devlopment" />
+
+                        </div>
+                        <div className='content'>
+                            <h2>
+                            GreenLife IQponics
+                            </h2>
+                           <div className='card-buttons'>
+                            <button onClick={(event)=>handleClick(event,"logistics IQPlant")} className="order-button">
+                                Order now
+                            </button>
+                            <button onClick={handleReadMore2} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
+
+                        </div>
+
+                    </div>}
 
                 </div>
 
                 {/*    <Tilt className="Tilt" options={{ max : 35 }} style={{ height: "52%", width: "48%",margin:60,marginRight:"10%"}} > */}
-
+               
                 <div className='circle'>
-                    <div className='Circle-contents'>
+                    {readMoreClicked3? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore3}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
+                   <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img6} alt="App devlopment" />
                         </div>
                         <div className='content'>
                             <h2>
                             iQHost 
                             </h2>
-                            <p>
-                                Something abount iQHost
-                            </p>
+                           
+                            <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"iQHost")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore3} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
-
+            
             </div>
             <div className='flex-div'>
                 <div className='circle2'>
-                    <div className='Circle-contents'>
+                   {readMoreClicked4?
+                   <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore4}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>: 
+                   <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img1} alt="App devlopment" />
                         </div>
                         <div className='content'>
                             <h2>
                             CocoFruit Grinder Machine
                             </h2>
                            
+                           <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"CocoFruit Grinder Machine")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore4} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
+                    
                 </div>
                 <div className='circle2'>
+                {readMoreClicked5? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore5}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img2} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
                             <h2>
                             Electric Fish De-scaler machine
                             </h2>
-                           
+                           <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"Electric Fish De-scaler machine")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore5} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
                 <div className='circle2'>
+                {readMoreClicked6? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore6}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
                             <img src="" alt="App devlopment" />
@@ -340,33 +463,57 @@ const [error, setError] = useState("");
                             <h2>
                             Vending Crushers
                             </h2>
-                            
+                            <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"Vending Crushers")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore6} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
             <div className='flex-div'>
                 <div className='circle2'>
+                {readMoreClicked7? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore7}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img3} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
                             <h2>
                             Ultrasound
                             </h2>
-                            
+                            <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"Ultrasound")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore7} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
                 <div className='circle2'>
+                {readMoreClicked8? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore8}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
                             <img src="" alt="App devlopment" />
@@ -374,16 +521,28 @@ const [error, setError] = useState("");
                         </div>
                         <div className='content'>
                             <h2>
-                            IOT based SanatiZation Tunnel
+                            IOT based Sanatization Tunnel
                             </h2>
-                          
+                          <div className='card-buttons'>
                             <button onClick={(event)=> handleClick (event,"IOT based SanatiZation Tunnel")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore8} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
                 <div className='circle2'>
+                {readMoreClicked9? <div className='read-more'>
+                   <div className='x-close' onClick={handleReadMore9}>
+                   x
+                   </div>
+                       <p>
+                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       </p> 
+                   </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
                             <img src="" alt="App devlopment" />
@@ -393,12 +552,16 @@ const [error, setError] = useState("");
                             <h2>
                             IOT based Hand Sanatization System
                             </h2>
-                            
+                            <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"IOT based Hand Sanatization System")} className="order-button">
                                 Order now
                             </button>
+                            <button onClick={handleReadMore9} className='order-button'>
+                                Read more
+                            </button>
+                            </div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
             </div>
@@ -407,12 +570,5 @@ const [error, setError] = useState("");
         </div>
     )
 }
-/*  const product=[{  first:"logistics IQPlant"},
-    {second:"iQHost"},
-   { third:"CocoFruit Grinder Machine"},
-   { fourth:"Electric Fish De-scaler machine"},
-    {fifth:"Vending Crushers"},
-    {sixth:"Ultrasound"},
-    {seventh:"IOT based SanatiZation Tunnel"},
-    {eighth:"IOT based Hand Sanatization System"},] */
+
 export default Product

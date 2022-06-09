@@ -11,13 +11,16 @@ import Enterprise from './components/Home/Footer/Enterprise Soloution/Enterprise
 import Login from './pages/Login';
 /* import Signup from './pages/Signup'; */
 import Footer from './components/Home/Footer/Footer';
-
+import "./App.css"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
+
 
 function App() {
   return (
     <div className="App">
     <Router>
+   
     <Routes>
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/production-enginnering' element={<ProductionEngineering/>}/>
