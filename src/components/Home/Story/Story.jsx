@@ -3,7 +3,7 @@ import "./Story.css"
 import "./Back.css"
 import Aos from "aos";
 import "aos/dist/aos.css";
-
+import Marquee from "react-fast-marquee";
 function Story() {
     useEffect(()=>{
         Aos.init({duration:1800, easing: 'ease-in-sine'});
@@ -11,8 +11,11 @@ function Story() {
         },[]);
 
   return (
+    
     <div className='story-and-impacts'>
-  <marquee>This Website is under maintenance</marquee>
+  <Marquee>
+  This Website is under maintenance.
+</Marquee>
     <div className='story-container'>
     <div data-aos="fade-right">
 

@@ -12,7 +12,7 @@
    /*  background: linear-gradient(to top, rgb(0, 0, 0), rgb(9, 70, 113));
  */
 }
-marquee{
+.marquee-container{
     position: relative;
     margin-top: 5%;
     background: black;
