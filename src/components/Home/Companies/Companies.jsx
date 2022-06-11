@@ -3,7 +3,16 @@ import "./Companies.css";
 
 import Img1 from "../../images/larvel.svg"
 import Img2 from "../../images/Scientist.svg"
-import Img3 from "../../images/Vue.svg"
+import Img3 from "../../images/Vue.svg";
+import Img4 from "../../images/brick.jpg";
+import Img5 from "../../images/comp-f.png";
+import Img10 from "../../images/comp.png";
+import Img6 from "../../images/comp-ff.png";
+import Img7 from "../../images/comp-fff.png";
+import Img8 from "../../images/comp-ffff.png";
+import Img12 from "../../images/fcon.png";
+import Img13 from "../../images/startup.png";
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from "react-bootstrap";
@@ -31,20 +40,36 @@ function Companies() {
     <div className="Companies-div">
     <div className='align-comp'>
         <h1  data-aos="fade-left">
-            Companies Which Trust Us
+            Clients and Partners
         </h1>
         <div className='comp-container'>
         <div class="companies">
-            <div class="company-contents"></div>
-            <div class="company-contents"></div>
-            <div class="company-contents"></div>
-            <div class="company-contents"></div>
+            <div class="company-contents">
+              <img src={Img10} alt=""/>
+            </div>
+            <div class="company-contents">
+            <img src={Img5} alt=""/>
+            </div>
+            <div class="company-contents">
+            <img src={Img12} alt=""/>
+            </div>
+            <div class="company-contents">
+            <img src={Img4} alt=""/>
+            </div>
         </div>
         <div class="companies">
-            <div class="company-contents"></div>
-            <div class="company-contents"></div>
-            <div class="company-contents"></div>
-            <div class="company-contents"></div>
+            <div class="company-contents">
+            <img src={Img6} alt=""/>
+            </div>
+            <div class="company-contents">
+            <img src={Img13} alt=""/>
+            </div>
+            <div class="company-contents">
+            <img src={Img7} alt=""/>
+            </div>
+            <div class="company-contents">
+            <img src={Img8} alt=""/>
+            </div>
         </div>
         </div>
         <div className='Peoples-review'>
@@ -90,7 +115,8 @@ It can really help to improve efficiency and the code quality.</p>
 
     <Carousel.Caption >
       <h3>Simran Malik - Research (Nanotechnology)</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <p> <a href='https://blog.internshala.com/2021/11/pursuing-a-career-in-materials-science-taking-the-road-less-travelled/'>Pursuing a career in materials science: Taking the road less travelled | Internshala blog</a>
+About the author: Simran Malik is a graduate in materials science from National University of Singapore. She completed her bachelor’s in nanotechnology from SRM University and went on to pursue a master’s in materials science. She talks about the role internships have played in her career path.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -101,8 +127,13 @@ It can really help to improve efficiency and the code quality.</p>
     />
 
     <Carousel.Caption >
-      <h3>Simran Malik - Research (Nanotechnology)</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Hrithik Ghatny - Oracle - System Engineer</h3>
+      <p>
+      This is the questionnaire you had I asked me to answer.
+ 
+      Thank you sir for this wonderful experience and opportunity that you had given me. I’ve learnt a lot from this internship and I’ve also grown my confidence in my professional life as well. Training a new intern was a lot of work for you.  Thank you for your time and patience during this internship.
+ 
+      </p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={2000}>
@@ -113,8 +144,39 @@ It can really help to improve efficiency and the code quality.</p>
     />
 
     <Carousel.Caption >
-      <h3>Simran Malik - Research (Nanotechnology)</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Ananda  Mukherjee - M.Tech - CSE IIT G</h3>
+      <p>
+      As an intern in IQApex Labs we learnt how to build things from very basics to industrial level that can be used in the real world. Besides technical skills, we learnt how to work in a team and other soft skills such as presenting your project, modeling it, and so on. In Mr. Arjun Dutta Sir we found a great teacher, mentor, and guide. His warmth is enough to motivate anyone to learn new skills. He always encourages us to get out of one's comfort zone and try out new things.
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img style={{height:400,width:400}}
+      className="d-block w-100"
+      src={Img3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption >
+      <h3>Arijit Mandal - Probationary Officer,SBI</h3>
+      <p>
+      As an intern in IQApex Labs we learnt how to build things from very basics to industrial level that can be used in the real world. Besides technical skills, we learnt how to work in a team and other soft skills such as presenting your project, modeling it, and so on. In Mr. Arjun Dutta Sir we found a great teacher, mentor, and guide. His warmth is enough to motivate anyone to learn new skills. He always encourages us to get out of one's comfort zone and try out new things.
+      </p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item interval={2000}>
+    <img style={{height:400,width:400}}
+      className="d-block w-100"
+      src={Img3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption >
+      <h3>Yadhu Nair -  Msc,Amrita School of Engineering, coimbatore  </h3>
+      <p>
+      Thank you so much for acknowledging my work.I personally had a good time working with you and learned a lot while working  and its been a privilege to work with you company.
+
+      </p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

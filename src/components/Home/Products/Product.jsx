@@ -11,7 +11,7 @@ import Img3 from "../../images/gel.jpeg";
 import Img4 from "../../images/greenlife.jpg";
 import Img5 from "../../images/ktok.jpeg";
 import Img6 from "../../images/host.jpeg";
-import Img7 from "../../images/hand.jpeg";
+import Img7 from "../../images/crush.jpeg"
 import Img8 from "../../images/tunnel.png";
 import Img9 from "../../images/vending.png";
 
@@ -294,7 +294,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       K TO K Consultancy Services is a pro law firm that serves as a single destination for all legal issues for beginners, founders, incubators, angelic investors, venture capitalists, and equity funds representing a variety of sectors / industries including health-tech, ed-tech , fin-tech, FMCG, logistics, e-commerce, travel, mobility, pharma and health care, and real estate etc. with offices in Kolkata, India.
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
@@ -327,7 +327,8 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       This product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
@@ -362,7 +363,16 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       The iQHost Product provides the following key potentials:
+
+*Creation & hosting, domains, any type of website, servers, email & office services, web security, and online marketing tools.
+
+*Inexpensive shared web hosting (Debian Linux) and domains, cloud storage, VPS, and dedicated services.
+
+*An uptime guarantee of 99.9% per calendar month. Credit of one free day’s hosting for every hour of downtime.
+
+*Manually backup for your account data (including mailboxes) and websites from your control panel.
+
                        </p> 
                    </div>:
                    <div className='Circle-contents'>
@@ -459,7 +469,7 @@ const [error, setError] = useState("");
                    </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src={Img9} alt="App devlopment" />
+                            <img src={Img7} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
@@ -548,7 +558,7 @@ const [error, setError] = useState("");
                    </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src={Img7} alt="App devlopment" />
+                            <img src={Img9} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
