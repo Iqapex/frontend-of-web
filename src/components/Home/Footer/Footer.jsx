@@ -41,7 +41,7 @@ function Footer() {
           About us
         </p>
         </Link>
-        <Link to="/partners" style={{textDecoration:"inherit"}}>
+        <Link to="/partner_with_us" style={{textDecoration:"inherit"}}>
        <p>
           partner with us
         </p>
@@ -79,7 +79,7 @@ function Footer() {
           Careers
         </p>
        </Link>
-       <Link to="/meeting" style={{textDecoration:"inherit"}}>
+       <Link to="/schedule" style={{textDecoration:"inherit"}}>
        <p>
           Schedule a meeting
         </p>

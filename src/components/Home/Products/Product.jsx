@@ -10,7 +10,10 @@ import Img2 from "../../images/fish.png";
 import Img3 from "../../images/gel.jpeg";
 import Img4 from "../../images/greenlife.jpg";
 import Img5 from "../../images/ktok.jpeg";
-import Img6 from "../../images/host.jpeg"
+import Img6 from "../../images/host.jpeg";
+import Img7 from "../../images/hand.jpeg";
+import Img8 from "../../images/tunnel.png";
+import Img9 from "../../images/vending.png";
 
 
 function Product() {
@@ -456,7 +459,7 @@ const [error, setError] = useState("");
                    </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img9} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
@@ -516,7 +519,7 @@ const [error, setError] = useState("");
                    </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img8} alt="App devlopment" />
 
                         </div>
                         <div className='content'>
@@ -545,7 +548,7 @@ const [error, setError] = useState("");
                    </div>:
                     <div className='Circle-contents'>
                         <div className='circular-image'>
-                            <img src="" alt="App devlopment" />
+                            <img src={Img7} alt="App devlopment" />
 
                         </div>
                         <div className='content'>

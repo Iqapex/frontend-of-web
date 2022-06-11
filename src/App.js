@@ -8,6 +8,9 @@ import OurService from './components/Home/Footer/Our Services/OurService';
 import ContactUs from './components/Home/Footer/Contact us/ContactUs';
 import AboutUs from './components/Home/Footer/About us/AboutUs';
 import Enterprise from './components/Home/Footer/Enterprise Soloution/Enterprise';
+import Join from './components/Home/Footer/Join_Business/Join';
+import Partner from './components/Home/Footer/Partner/Partner';
+import Schedule from './components/Home/Footer/Schedule_a_meeting/Schedule';
 import Login from './pages/Login';
 /* import Signup from './pages/Signup'; */
 import Footer from './components/Home/Footer/Footer';
@@ -33,7 +36,9 @@ function App() {
       <Route exact path='/AboutUs' element={<AboutUs/>}/>
       <Route exact path='/login' element={<Login/>}/>
       <Route exact path='/signup' element={<Login/>}/>
-      
+      <Route exact path='/join-business' element={<Join/>}/>
+      <Route exact path ='/schedule' element={<Schedule/>}/>
+      <Route exact path='partner_with_us' element={<Partner/>}/>
     </Routes>
     <Footer/>
     </Router>
