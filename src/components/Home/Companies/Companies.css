@@ -93,4 +93,11 @@ margin-top: 5%;
         flex-direction: column;
         align-items: center;
     }
+    .Peoples-review p {
+        font-size: 10px;
+    }
+    .Peoples-review h3 {
+        font-size: 10px;
+
+    }
 }
