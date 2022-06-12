@@ -20,13 +20,14 @@ function Tree() {
 
   return (
     <div className='tree'>
-     <Marquee>
-  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience.
-</Marquee>
+    
     <div className='treeImg'>
+    
    <img src={TreeBg}  alt=""/>
     </div>
+    
    <div className='services'>
+   
    <div className='service-heading'>
    {/* */}
    <h1 data-aos="fade-right">

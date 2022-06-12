@@ -71,8 +71,13 @@ body{
     overflow: hidden;
     color: whitesmoke;
    
-    
+}
 
+.maque-x .marquee-container{
+    position: relative;
+    margin-top: 20%;
+    background: black;
+    color: white;
 }
 
 @media (max-width:1300px){

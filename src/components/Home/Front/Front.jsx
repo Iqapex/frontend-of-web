@@ -4,6 +4,7 @@ import ParticleAnimation from '../../Particles'
 import Logo from "../../images/iqapex.png"
 
 import Typewriter from 'typewriter-effect';
+import Marquee from 'react-fast-marquee';
 
 function Front() {
 
@@ -36,6 +37,12 @@ function Front() {
           </div>
          
         </div>
+    </div>
+    <div className='maque-x'>
+
+    <Marquee>
+  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience.
+</Marquee>
     </div>
 
     </div>
