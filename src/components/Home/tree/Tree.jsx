@@ -3,7 +3,8 @@ import "./Tree.css"
 import TreeBg from "./tree.svg"
 import Aos from "aos";
 import "aos/dist/aos.css"
-import App from "../../images/app development icon.svg"
+import App from "../../images/app development icon.svg";
+import Marquee from 'react-fast-marquee';
 /* import Digital from "../../images/digital marketing icon.svg"
 import Economics from "../../images/economics icon (1).svg"
 import Iot from "../../images/internet-of-things 1.svg"
@@ -19,11 +20,15 @@ function Tree() {
 
   return (
     <div className='tree'>
+     <Marquee>
+  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience.
+</Marquee>
     <div className='treeImg'>
    <img src={TreeBg}  alt=""/>
     </div>
    <div className='services'>
    <div className='service-heading'>
+   {/* */}
    <h1 data-aos="fade-right">
        Our Services
      </h1>
