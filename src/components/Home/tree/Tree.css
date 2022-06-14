@@ -77,7 +77,7 @@ clip-path: circle(50px at 53px 56px);
 }
 .service-card h4,.service-card p{
     opacity: 0;
-    font-size: 1vw;
+    font-size: 0.9vw;
 }
 
 .service-card:hover h4,.service-card:hover p{
