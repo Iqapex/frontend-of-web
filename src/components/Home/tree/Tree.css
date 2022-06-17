@@ -221,7 +221,9 @@ opacity: 0;
     .mid-img img{
         width: 100%;
     }
-
+    h1{
+        font-size: 8vw;
+    }
     .service-card:nth-child(1){
         left: 1%;
         top: 68%;
@@ -261,10 +263,34 @@ opacity: 0;
         clip-path: circle(20% at 34% 20%);
         /* clip-path: circle(27px at 20%); */
 }
+.service-card:nth-child(3){
+    top: 53%;
+    left: -3%;
+    z-index: 3;
+    position: relative;
+}
+.service-card:nth-child(4){
+    left: 4%;
+    top: 54%;
+    z-index: 2;
+    position: relative;
+}
             
         
 
 }
+@media (max-width:435px){
+    .service-card{
+      
+        /*     clip-path: circle(50px at 25%); */
+        clip-path: circle(20% at 34% 20%);
+        /* clip-path: circle(27px at 20%); */
+}
+            
+        
+
+}
+
 @media (max-width:380px){
     .service-card{
 
