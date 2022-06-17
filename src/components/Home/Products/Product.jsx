@@ -405,7 +405,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       
                        </p> 
                    </div>: 
                    <div className='Circle-contents'>
@@ -435,7 +435,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
@@ -464,7 +464,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
@@ -495,7 +495,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
@@ -524,7 +524,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                      
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
@@ -553,7 +553,7 @@ const [error, setError] = useState("");
                    x
                    </div>
                        <p>
-                       product offers aquaponic/hydroponics/aeroponics training, support and program for individuals, schools and young entrepreneurs.Besides consultancy services this brand enhances aquaponics/hydroponics systems creating the most effective type of aquaponics/ hydroponics/aeroponics for indoors, homes and commercial purposes.
+                       
                        </p> 
                    </div>:
                     <div className='Circle-contents'>
