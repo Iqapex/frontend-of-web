@@ -81,6 +81,11 @@
     margin-top: 38%;
     
 }
+.story{
+    height:40%;
+    position: relative;
+    top: 5%;
+}
 @media(max-width:1300px){
     .story-container{
         display: flex;

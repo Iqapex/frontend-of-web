@@ -337,6 +337,25 @@ input[type=number] {
    
    
 }
+.gst{
+    position:relative;
+    
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.oos{
+    margin-top: 0;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(233, 53, 53);
+
+}
 
 @media (max-width:1086px){
     .flex-div{

@@ -14,7 +14,7 @@ function Story() {
     
     <div className='story-and-impacts'>
   <Marquee>
-  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience. (GST no - 19AAIFI4672EIZ7) 
+  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience.
 </Marquee>
     <div className='story-container'>
     <div data-aos="fade-right">
@@ -401,19 +401,12 @@ function Story() {
 
     </div>
  
-        <div>
+        <div className='story'>
         <h1 data-aos="fade-left">
             Our Story
         </h1>
         <p data-aos="fade-up">
-            Any story about IQ Apex labs
-            1. To provide remote-access to simulation-based Labs in various disciplines of Science and Engineering.
-
-2. To enthuse students to conduct experiments by arousing their curiosity. This would help them in learning basic and advanced concepts through remote experimentation.
-
-3. To provide a complete Learning Management System around the Virtual Labs where the students/ teachers can avail the various tools for learning, including additional web-resources, video-lectures, animated demonstrations and self-evaluation.
-
-Broad Areas of Virtual Labs,Electronics & Communications,Computer Science & Engineering,Electrical Engineering,Mechanical Engineering,Chemical Engineering,Biotechnology and Biomedical Engineering,Civil Engineering,Physical Sciences,Chemical Sciences
+        We at IQApex Labs help businesses and brands to get ready for the inevitable future dominated by emerging technologies and solution driven products.
 
         </p>
         </div>
@@ -448,7 +441,7 @@ Broad Areas of Virtual Labs,Electronics & Communications,Computer Science & Engi
             </div>
             <div class="impacts" data-aos="zoom-in">
             <h4 data-aos="fade-left">
-                    1 Book Published
+                    2 Book Published
                 </h4>
             </div>
         </div>

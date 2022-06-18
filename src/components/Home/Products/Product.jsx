@@ -284,8 +284,11 @@ const [error, setError] = useState("");
           <div>
           
           <h1 data-aos="fade-left">
-                Products
+                Products    
             </h1>
+            <p className='gst'>
+                (GST no. - 19AAIFI4672EIZ7)
+                </p>
             <div className='flex-div'>
 
                 <div className='circle'>
@@ -339,6 +342,9 @@ const [error, setError] = useState("");
                         <div className='content'>
                             <h2>
                             GreenLife IQponics
+                            <h6>
+                            Driven By Process, Fueled By Passion
+                            </h6>
                             </h2>
                            <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"logistics IQPlant")} className="order-button">
@@ -382,6 +388,9 @@ const [error, setError] = useState("");
                         <div className='content'>
                             <h2>
                             iQHost 
+                            <h6>
+                            Hosting That's Tailored To Your Success
+                            </h6>
                             </h2>
                            
                             <div className='card-buttons'>
@@ -507,11 +516,12 @@ const [error, setError] = useState("");
                             <h2>
                             ECG Gel
                             </h2>
+                           
                             <div className='card-buttons'>
-                            <button onClick={(event)=>handleClick(event,"Ultrasound")} className="order-button">
+                            <button onClick={(event)=>handleClick(event,"Ultrasound")}  className="order-button">
                                 Order now
                             </button>
-                            <button onClick={handleReadMore7} className='order-button'>
+                            <button onClick={handleReadMore7}  className='order-button'>
                                 Read more
                             </button>
                             </div>
@@ -536,11 +546,14 @@ const [error, setError] = useState("");
                             <h2>
                             IOT based Sanatization Tunnel
                             </h2>
+                            <p className='oos'>
+                                Out of Stock
+                            </p>
                           <div className='card-buttons'>
-                            <button onClick={(event)=> handleClick (event,"IOT based SanatiZation Tunnel")} className="order-button">
+                            <button  style={{marginTop:"5px",textDecoration:"line-through",color:"red"}} className="order-button">
                                 Order now
                             </button>
-                            <button onClick={handleReadMore8} className='order-button'>
+                            <button onClick={handleReadMore8} style={{marginTop:"5px"}} className='order-button'>
                                 Read more
                             </button>
                             </div>
@@ -565,11 +578,14 @@ const [error, setError] = useState("");
                             <h2>
                             IOT based Hand Sanatization System
                             </h2>
+                            <p className='oos'>
+                                Out of Stock
+                            </p>
                             <div className='card-buttons'>
-                            <button onClick={(event)=>handleClick(event,"IOT based Hand Sanatization System")} className="order-button">
+                            <button  style={{marginTop:"5px",textDecoration:"line-through",color:"red"}} className="order-button">
                                 Order now
                             </button>
-                            <button onClick={handleReadMore9} className='order-button'>
+                            <button onClick={handleReadMore9} style={{marginTop:"5px"}} className='order-button'>
                                 Read more
                             </button>
                             </div>

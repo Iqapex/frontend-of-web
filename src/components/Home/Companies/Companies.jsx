@@ -103,7 +103,7 @@ function Companies() {
     />
 
     <Carousel.Caption>
-      <h3>Ayush Chaudhary - IIT Indore - Full Stack Developer</h3>
+      <h3>Ayush Chaudhary - IIT Indore</h3>
       <p>It was a wonderful experience for me, and I have been able to learn a lot of new things during the time.Overall, I have been able to become a better version of myself, thanks to you.
       I directly worked under Arjun Sir and reported to him. He was very kind and cooperative and able to understand the problems faced by us very well. </p>
     </Carousel.Caption>
@@ -117,7 +117,7 @@ function Companies() {
     />
 
     <Carousel.Caption>
-      <h3>Harsh Sinha - IIT G - Full Stack Developer</h3>
+      <h3>Harsh Sinha - IIT Guwahati</h3>
       <p>I gained much knowledge from this intern and really enjoyed it. Mentors respond immediately and
       are very supportive.
       The innovative projects that your team demonstrates are really appreciable and unique of their own kind. Looking forward to working with your team with many such exciting products.
@@ -132,7 +132,7 @@ function Companies() {
     />
 
     <Carousel.Caption >
-      <h3>Simran Malik - Research (Nanotechnology)</h3>
+      <h3>Simran Malik MS in Materials Science - National University of Singapore</h3>
       <p> <a href='https://blog.internshala.com/2021/11/pursuing-a-career-in-materials-science-taking-the-road-less-travelled/'>Pursuing a career in materials science: Taking the road less travelled | Internshala blog</a>
                 </p>
     </Carousel.Caption>
@@ -197,7 +197,7 @@ function Companies() {
     />
 
     <Carousel.Caption >
-      <h3>Yadhu Nair -  Msc,Amrita School of Engineering, coimbatore  </h3>
+      <h3>Yadhu Nair -  Msc, Amrita School of Engineering, Coimbatore  </h3>
       <p>
       Thank you so much for acknowledging my work.I personally had a good time working with you and learned a lot while working  and its been a privilege to work with you company.
 
