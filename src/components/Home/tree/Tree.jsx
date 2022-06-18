@@ -4,7 +4,7 @@ import TreeBg from "./tree.svg"
 import Aos from "aos";
 import "aos/dist/aos.css"
 import App from "../../images/app development icon.svg";
-import Marquee from 'react-fast-marquee';
+//import Marquee from 'react-fast-marquee';
 /* import Digital from "../../images/digital marketing icon.svg"
 import Economics from "../../images/economics icon (1).svg"
 import Iot from "../../images/internet-of-things 1.svg"
