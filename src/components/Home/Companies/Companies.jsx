@@ -85,7 +85,7 @@ function Companies() {
     />
     <Carousel.Caption>
       <h3> Meghana Hegde,IIM Kozhikode,India</h3>
-      <p>. I wish to convey my gratitude for providing this opportunity to intern with
+      <p> I wish to convey my gratitude for providing this opportunity to intern with
             your organization. It was a pleasant experience and it helped me sharpen my research skills
             during this period. I also learned to use vital tools that are helpful for any type of research.
             I wish to thank Mr. Arjun Sir for constantly supporting me throughout the period and accommodating

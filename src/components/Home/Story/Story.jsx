@@ -14,7 +14,7 @@ function Story() {
     
     <div className='story-and-impacts'>
   <Marquee>
-  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience.
+  This Website is under maintenance. We will get back to you shortly. Sorry for inconvenience. (GST no - 19AAIFI4672EIZ7) 
 </Marquee>
     <div className='story-container'>
     <div data-aos="fade-right">

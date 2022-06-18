@@ -13,7 +13,7 @@ import Img5 from "../../images/ktok.jpeg";
 import Img6 from "../../images/host.jpeg";
 import Img7 from "../../images/crush.jpeg"
 import Img8 from "../../images/tunnel.png";
-import Img9 from "../../images/vending.png";
+import Img9 from "../../images/hands_san.png";
 
 
 function Product() {
@@ -505,7 +505,7 @@ const [error, setError] = useState("");
                         </div>
                         <div className='content'>
                             <h2>
-                            Ultrasound
+                            ECG Gel
                             </h2>
                             <div className='card-buttons'>
                             <button onClick={(event)=>handleClick(event,"Ultrasound")} className="order-button">
