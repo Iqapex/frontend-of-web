@@ -84,7 +84,7 @@ function Companies() {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3> Meghana Hegde,IIM Kozhikode,India</h3>
+      <h3> Meghana Hegde, IIM Kozhikode, India</h3>
       <p> I wish to convey my gratitude for providing this opportunity to intern with
             your organization. It was a pleasant experience and it helped me sharpen my research skills
             during this period. I also learned to use vital tools that are helpful for any type of research.
@@ -145,7 +145,7 @@ function Companies() {
     />
 
     <Carousel.Caption >
-      <h3>Hrithik Ghatny - Oracle - System Engineer</h3>
+      <h3>Hrithik Ghatny - Oracle, System Engineer</h3>
       <p>
       Thank you team IQApex for the wonderful experience and opportunity that you had given me during the completion my Engg. degree. 
       I’ve learnt a lot & also grown my confidence in my professional life as well. Training as a newbie was a lot of work for you.
@@ -161,7 +161,7 @@ function Companies() {
     />
 
     <Carousel.Caption >
-      <h3>Ananda  Mukherjee - M.Tech - CSE IIT G</h3>
+      <h3>Ananda  Mukherjee - M.Tech, CSE IIT Guwahati</h3>
       <p>
           Life in IQApex - we learnt how to build things from very basics to industrial level that can
           be used in the real world. Besides technical skills, we learnt how to work in a team and other 
@@ -179,7 +179,7 @@ function Companies() {
     />
 
     <Carousel.Caption >
-      <h3>Arijit Mandal - Probationary Officer,SBI</h3>
+      <h3>Arijit Mandal - Probationary Officer, SBI</h3>
       <p>
       I cannot forget the time I spent with Mr. Arjun Dutta sir and IQApex Labs.
       Everytime I met  Sir, I got inspiration from his entrepreneurial character and morale. 
